@@ -23,6 +23,7 @@ Node.js
 Hexo
 
 InstallInstall Node.jsFirst, inst">
+<meta property="og:updated_time" content="2015-04-01T16:15:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="This blog made Hexo">
 <meta name="twitter:description" content="This blog made Hexo that is a static site generator written by Node.js.
@@ -33,12 +34,12 @@ Hexo
 
 InstallInstall Node.jsFirst, inst">
   
-    <link rel="alternative" href="/atom.xml" title="WaterDrop" type="application/atom+xml">
+    <link rel="alternative" href="/WaterDrop/atom.xml" title="WaterDrop" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
   
-  <link rel="stylesheet" href="/WaterDrop/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/WaterDrop/css/style.css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 </head>
@@ -53,13 +54,13 @@ InstallInstall Node.jsFirst, inst">
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/WaterDrop/">Home</a></li><li><a href="/WaterDrop/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/WaterDrop/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
-		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://muyuu.github.io/WaterDrop"></form>
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://muyuu.github.io/WaterDrop"></form>
 	</div>
 </header>
     <div id="main">
@@ -89,33 +90,33 @@ InstallInstall Node.jsFirst, inst">
 		
     	<p>This blog made Hexo that is a static site generator written by Node.js.</p>
 <p>I can’t remembered make pages flow. so I write there this post.</p>
-<h2 id="need_to_use_Hexo">need to use Hexo</h2><ul>
+<h2 id="need-to-use-Hexo"><a href="#need-to-use-Hexo" class="headerlink" title="need to use Hexo"></a>need to use Hexo</h2><ul>
 <li>Node.js</li>
 <li>Hexo</li>
 </ul>
-<h2 id="Install">Install</h2><h3 id="Install_Node-js">Install Node.js</h3><p>First, install Node.js.</p>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><h3 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h3><p>First, install Node.js.</p>
 <p>Access the web page and download binary file.</p>
-<h3 id="install_Hexo">install Hexo</h3><p>Hexo install is very easy. put the key.</p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h3 id="install-Hexo"><a href="#install-Hexo" class="headerlink" title="install Hexo"></a>install Hexo</h3><p>Hexo install is very easy. put the key.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure>
 <p>after you can use ‘hexo’ command.</p>
-<h2 id="make_new_blog">make new blog</h2><p>move directory and hexo command.</p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> new/blog/parent/dir</span><br><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+<h2 id="make-new-blog"><a href="#make-new-blog" class="headerlink" title="make new blog"></a>make new blog</h2><p>move directory and hexo command.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> new/blog/parent/dir</div><div class="line">$ hexo init</div></pre></td></tr></table></figure>
 <p>great!</p>
-<h2 id="install_npm_packages">install npm packages</h2><p>move new blog directory. and npm package install</p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> blogname</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<h2 id="make_new_post">make new post</h2><p>put command</p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">'title'</span></span><br></pre></td></tr></table></figure>
+<h2 id="install-npm-packages"><a href="#install-npm-packages" class="headerlink" title="install npm packages"></a>install npm packages</h2><p>move new blog directory. and npm package install</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> blogname</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<h2 id="make-new-post"><a href="#make-new-post" class="headerlink" title="make new post"></a>make new post</h2><p>put command</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">'title'</span></div></pre></td></tr></table></figure>
 <p>has maked source/_posts/title.md.</p>
 <p>you write text this file using markdown when finished save file.</p>
-<h2 id="check_local_server">check local server</h2><p>start local server.</p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="check-local-server"><a href="#check-local-server" class="headerlink" title="check local server"></a>check local server</h2><p>start local server.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>access to <a href="http://0.0.0.0:4000/" target="_blank" rel="external">http://0.0.0.0:4000/</a></p>
-<h2 id="generate_static_files">generate static files</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>if you want deploy when generate files add option ‘—deploy’ or ‘-d’.</p>
-<h2 id="deploy">deploy</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h2 id="generate-static-files"><a href="#generate-static-files" class="headerlink" title="generate static files"></a>generate static files</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>if you want deploy when generate files add option ‘–deploy’ or ‘-d’.</p>
+<h2 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>Notice. before deploy you must be deploy setting at _config.yml file.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Deployment&#10;## Docs: http://hexo.io/docs/deployment.html&#10;deploy:&#10;  type: git&#10;  repo: git@github.com:name/repo.git&#10;  branch: gh-pages</span><br></pre></td></tr></table></figure>
-<h2 id="P-S-">P.S.</h2><p>Fight me.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repo:</span> git@github.com:name/repo.git</div><div class="line"><span class="attr">  branch:</span> gh-pages</div></pre></td></tr></table></figure>
+<h2 id="P-S"><a href="#P-S" class="headerlink" title="P.S."></a>P.S.</h2><p>Fight me.</p>
 
     
 	</div>
@@ -134,6 +135,15 @@ InstallInstall Node.jsFirst, inst">
 	
     
 <nav id="article-nav">
+  
+    <a href="/WaterDrop/2017/02/24/restart-this-blog/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          restart this blog
+        
+      </div>
+    </a>
   
   
     <a href="/WaterDrop/2015/04/01/open-new-blog/" id="article-nav-older" class="article-nav-link-wrap">
@@ -165,21 +175,14 @@ InstallInstall Node.jsFirst, inst">
 		<a href="/WaterDrop/">WaterDrop</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 Muyuu<br>
+		&copy; 2017 Muyuu<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>
 </footer>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-
-<link rel="stylesheet" href="/WaterDrop/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/WaterDrop/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/WaterDrop/js/script.js" type="text/javascript"></script>
   </div>
 </body>
 </html>
