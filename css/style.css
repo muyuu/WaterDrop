@@ -102,6 +102,10 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+html {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
 body {
   background: #fff;
   color: #4f5759;
@@ -395,7 +399,7 @@ pre .deletion {
   display: inline-block;
   width: 18px;
   height: 17px;
-  background: url("/images/icon-reorder@2x.png") no-repeat 0 0;
+  background: url("../images/icon-reorder@2x.png") no-repeat 0 0;
   -webkit-background-size: 18px 17px;
   -moz-background-size: 18px 17px;
   background-size: 18px 17px;
@@ -760,6 +764,15 @@ pre .deletion {
   border: 0;
   border-top: 3px solid #d5d5d5;
 }
+.entry-content code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
 .entry-meta-footer {
   font-size: 85%;
   color: #777;
@@ -915,6 +928,7 @@ pre .deletion {
   margin-bottom: 0;
 }
 .archive .entry-content h1 {
+  margin-top: 0;
   font-size: 170%;
 }
 #page-nav {
@@ -1007,7 +1021,6 @@ pre .deletion {
   }
   .entry-meta-header {
     position: static;
-    margin-bottom: 1em;
     width: auto;
   }
   .entry-meta-header .meta-elements {
@@ -1082,7 +1095,7 @@ pre .deletion {
     display: none !important;
   }
   #header {
-    margin: 2em 0 4em 0;
+    margin: 0 0 3em 0;
     text-align: center;
     position: static;
   }
@@ -1095,7 +1108,6 @@ pre .deletion {
   }
   .entry-meta-header {
     position: static;
-    margin-bottom: 1em;
     width: auto;
   }
   .entry-meta-header .meta-elements {
