@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WaterDrop</title>
+  
+  <link href="/WaterDrop/atom.xml" rel="self"/>
+  
+  <link href="http://muyuu.github.io/WaterDrop/"/>
+  <updated>2017-02-26T01:28:51.000Z</updated>
+  <id>http://muyuu.github.io/WaterDrop/</id>
+  
+  <author>
+    <name>Muyuu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>update npm commands</title>
+    <link href="http://muyuu.github.io/WaterDrop/2017/02/26/update-npm-commands/"/>
+    <id>http://muyuu.github.io/WaterDrop/2017/02/26/update-npm-commands/</id>
+    <published>2017-02-26T01:28:14.000Z</published>
+    <updated>2017-02-26T01:28:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>test.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;test.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="http://muyuu.github.io/WaterDrop/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>restart this blog</title>
+    <link href="http://muyuu.github.io/WaterDrop/2017/02/24/restart-this-blog/"/>
+    <id>http://muyuu.github.io/WaterDrop/2017/02/24/restart-this-blog/</id>
+    <published>2017-02-24T07:26:40.000Z</published>
+    <updated>2017-02-25T14:03:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>I started to keep writeing this blog again.</p>
+<p>Because, I must learn english for my work.</p>
+<p>I’m Web frontend developer. So I need to read english blog posts, library documents, and watch tutorial movies.</p>
+<p>I start to try that I write this blog everyday.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I started to keep writeing this blog again.&lt;/p&gt;
+&lt;p&gt;Because, I must learn english for my work.&lt;/p&gt;
+&lt;p&gt;I’m Web frontend developer. So I nee
+    
+    </summary>
+    
+    
+      <category term="english" scheme="http://muyuu.github.io/WaterDrop/tags/english/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>This blog made Hexo</title>
+    <link href="http://muyuu.github.io/WaterDrop/2015/04/02/This-blog-made-Hexo/"/>
+    <id>http://muyuu.github.io/WaterDrop/2015/04/02/This-blog-made-Hexo/</id>
+    <published>2015-04-01T15:56:30.000Z</published>
+    <updated>2015-04-01T16:15:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This blog made Hexo that is a static site generator written by Node.js.</p>
+<p>I can’t remembered make pages flow. so I write there this post.</p>
+<h2 id="need-to-use-Hexo"><a href="#need-to-use-Hexo" class="headerlink" title="need to use Hexo"></a>need to use Hexo</h2><ul>
+<li>Node.js</li>
+<li>Hexo</li>
+</ul>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><h3 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h3><p>First, install Node.js.</p>
+<p>Access the web page and download binary file.</p>
+<h3 id="install-Hexo"><a href="#install-Hexo" class="headerlink" title="install Hexo"></a>install Hexo</h3><p>Hexo install is very easy. put the key.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure>
+<p>after you can use ‘hexo’ command.</p>
+<h2 id="make-new-blog"><a href="#make-new-blog" class="headerlink" title="make new blog"></a>make new blog</h2><p>move directory and hexo command.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> new/blog/parent/dir</div><div class="line">$ hexo init</div></pre></td></tr></table></figure>
+<p>great!</p>
+<h2 id="install-npm-packages"><a href="#install-npm-packages" class="headerlink" title="install npm packages"></a>install npm packages</h2><p>move new blog directory. and npm package install</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> blogname</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<h2 id="make-new-post"><a href="#make-new-post" class="headerlink" title="make new post"></a>make new post</h2><p>put command</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">'title'</span></div></pre></td></tr></table></figure>
+<p>has maked source/_posts/title.md.</p>
+<p>you write text this file using markdown when finished save file.</p>
+<h2 id="check-local-server"><a href="#check-local-server" class="headerlink" title="check local server"></a>check local server</h2><p>start local server.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>access to <a href="http://0.0.0.0:4000/" target="_blank" rel="external">http://0.0.0.0:4000/</a></p>
+<h2 id="generate-static-files"><a href="#generate-static-files" class="headerlink" title="generate static files"></a>generate static files</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>if you want deploy when generate files add option ‘–deploy’ or ‘-d’.</p>
+<h2 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>Notice. before deploy you must be deploy setting at _config.yml file.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repo:</span> git@github.com:name/repo.git</div><div class="line"><span class="attr">  branch:</span> gh-pages</div></pre></td></tr></table></figure>
+<h2 id="P-S"><a href="#P-S" class="headerlink" title="P.S."></a>P.S.</h2><p>Fight me.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This blog made Hexo that is a static site generator written by Node.js.&lt;/p&gt;
+&lt;p&gt;I can’t remembered make pages flow. so I write there this 
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="http://muyuu.github.io/WaterDrop/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>open new blog</title>
+    <link href="http://muyuu.github.io/WaterDrop/2015/04/01/open-new-blog/"/>
+    <id>http://muyuu.github.io/WaterDrop/2015/04/01/open-new-blog/</id>
+    <published>2015-04-01T09:55:27.000Z</published>
+    <updated>2015-04-01T10:06:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Start-new-blog"><a href="#Start-new-blog" class="headerlink" title="Start new blog!"></a>Start new blog!</h2><p>Hello everyone. I’m Muyuu Japanese.</p>
+<p>I began writting this blog, because I’ll learn english!</p>
+<h2 id="What-do-I-Need-for-learn-english"><a href="#What-do-I-Need-for-learn-english" class="headerlink" title="What do I Need for learn english?"></a>What do I Need for learn english?</h2><p>I don’t understand english.</p>
+<p>But my job is Web Frontend Developer. Need to me english!</p>
+<p>So I begin this blog.</p>
+<p>I need Writting english using english, and finding englis everyday.</p>
+<p>Thank you.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Start-new-blog&quot;&gt;&lt;a href=&quot;#Start-new-blog&quot; class=&quot;headerlink&quot; title=&quot;Start new blog!&quot;&gt;&lt;/a&gt;Start new blog!&lt;/h2&gt;&lt;p&gt;Hello everyone. I’m 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://muyuu.github.io/WaterDrop/2015/04/01/hello-world/"/>
+    <id>http://muyuu.github.io/WaterDrop/2015/04/01/hello-world/</id>
+    <published>2015-04-01T09:47:45.000Z</published>
+    <updated>2015-04-01T09:54:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
