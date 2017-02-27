@@ -5,7 +5,7 @@
   <link href="/WaterDrop/atom.xml" rel="self"/>
   
   <link href="http://muyuu.github.io/WaterDrop/"/>
-  <updated>2017-02-26T02:30:26.000Z</updated>
+  <updated>2017-02-27T15:44:55.000Z</updated>
   <id>http://muyuu.github.io/WaterDrop/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Listen Movie</title>
+    <link href="http://muyuu.github.io/WaterDrop/2017/02/28/Listen-Movie/"/>
+    <id>http://muyuu.github.io/WaterDrop/2017/02/28/Listen-Movie/</id>
+    <published>2017-02-27T15:33:58.000Z</published>
+    <updated>2017-02-27T15:44:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Today, I listen movie <code>Back to the future</code>.</p>
+<p>It’s difficult to learning to English. so I thought that I listen movie that I finished watch.</p>
+<p>I remember story that my favarite movie.</p>
+<p>so I listen <code>back to the future</code> today. that movie is my favorite movie.</p>
+<p>I understand a little.</p>
+<p>How is it good practice? I don’t know.</p>
+<p>But I’ll listen few times.</p>
+<p>I believe that listening many english is best practice for study english.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Today, I listen movie &lt;code&gt;Back to the future&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It’s difficult to learning to English. so I thought that I listen movie tha
+    
+    </summary>
+    
+    
+      <category term="english" scheme="http://muyuu.github.io/WaterDrop/tags/english/"/>
+    
+  </entry>
   
   <entry>
     <title>How to use HTTPS for GitHub pages</title>
