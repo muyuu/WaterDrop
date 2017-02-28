@@ -1,3 +1,11 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/WaterDrop/sw.js').then(function(registration){
+    console.log('success serviceWorker registration', registration.scope);
+  }).catch(function(error){
+    console.log('error serviceWorker registration', error);
+  });
+}
+
 (function($){
   // Search
   var $searchWrap = $('#search-form-wrap'),
@@ -107,7 +115,7 @@
   // Mobile nav
 
   $(".mobile-nav-panel").click(function() {
-    $(".nav").toggleClass("active")
+    $(".nav").toggleClass("active");
   });
 
 })(jQuery);
